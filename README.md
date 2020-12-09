@@ -69,3 +69,9 @@ There are several options for how to space the flex items along the line that is
 
 Bonus
 Try the other options for the `justify-content` property in the code editor to see their differences. But note that a value of `center` is the only one that will pass this challenge.
+
+## 8 - Use the justify-content Property in the Tweet Embed :
+
+- The last challenge showed an example of the `justify-content` property. For the tweet embed, this property can be applied to align the items in the `.profile-name` element.
+
+- Add the CSS property `justify-content` to the header's `.profile-name` element and set the value to any of the options from the last challenge.
