@@ -116,3 +116,13 @@ CSS also has options for the direction of the wrap:
 - `wrap`: wraps items from left-to-right if they are in a row, or top-to-bottom if they are in a column.
 - `wrap-reverse`: wraps items from right-to-left if they are in a row, or bottom-to-top if they are in a column.
   The current layout has too many boxes for one row. Add the CSS property `flex-wrap` to the `#box-container` element, and give it a value of `wrap`.
+
+## 12 - Use the flex-shrink Property to Shrink Items :
+
+- So far, all the properties in the challenges apply to the flex container (the parent of the flex items). However, there are several useful properties for the flex items.
+
+- The first is the `flex-shrink` property. When it's used, it allows an item to shrink if the flex container is too small. Items shrink when the width of the parent container is smaller than the combined widths of all the flex items within it.
+
+- The `flex-shrink` property takes numbers as values. The higher the number, the more it will shrink compared to the other items in the container. For example, if one item has a `flex-shrink` value of `1` and the other has a `flex-shrink` value of `3`, the one with the value of `3` will shrink three times as much as the other.
+
+- Add the CSS property `flex-shrink` to both `#box-1` and `#box-2`. Give `#box-1` a value of `1` and `#box-2` a value of `2`.
