@@ -37,3 +37,9 @@ Introduction to the CSS Flexbox Challenges
 - he `header` and `footer` in the tweet embed example have child items that could be arranged as rows using the `flex-direction` property. This tells CSS to align the children horizontally.
 
 - Add the CSS property `flex-direction` to both the `header` and `footer` and set the value to row.
+
+## 5 - Use the flex-direction Property to Make a Column :
+
+The last two challenges used the `flex-direction` property set to `row`. This property can also create a column by vertically stacking the children of a flex container.
+
+Add the CSS property `flex-direction` to the `#box-container` element, and give it a value of `column`.
