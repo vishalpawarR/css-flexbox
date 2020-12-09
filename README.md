@@ -43,3 +43,9 @@ Introduction to the CSS Flexbox Challenges
 The last two challenges used the `flex-direction` property set to `row`. This property can also create a column by vertically stacking the children of a flex container.
 
 Add the CSS property `flex-direction` to the `#box-container` element, and give it a value of `column`.
+
+## 6 - Apply the flex-direction Property to Create a Column in the Tweet Embed :
+
+- The tweet embed `header` and `footer` used the `flex-direction` property earlier with a row value. Similarly, the items inside the `.profile-name` element would work well stacked as a column.
+
+Add the CSS property `flex-direction` to the header's `.profile-name` element and set the value to column.
